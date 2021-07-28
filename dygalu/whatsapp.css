@@ -1,26 +1,27 @@
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:75px;
+	height:70px;
 	bottom:40px;
 	right:40px;
 	background-color:#fff;
 	color:#25d366;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+  font-size:40px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
-  transition: .2s;
+  transition: .4s;
 }
 .float:hover {
 	text-decoration: none;
 	color: #fff;
-  background-color:#25d366;
-  transition: .2s;
+  background-image: linear-gradient(to right, #2BD334, #009B09);
+  transition: .4s;
   transform: translateY(-3px) scale(1.05);
 }
 
 .my-float{
 	margin-top:16px;
+	transition: .2s;
 }

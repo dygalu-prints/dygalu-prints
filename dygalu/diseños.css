@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Qahiri&family=STIX+Two+Math&display=swap');
+
+img{
+
+    width: 100%;
+
+}
+
+.tarjetas{
+
+  display: flex;
+  justify-content: center;
+  width:90%;
+  max-width:1000px;
+  margin:auto;
+  overflow:hidden;
+
+
+}
+
+.bottom{
+
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 600ms ease;
+
+}
+
+.bottom:hover{
+
+  background: #2fb4cc;
+  color: #fff;
+
+}
+
+.cuerpo-tarjeta{
+
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  width: 300px;
+  border: solid rgba(167, 193, 201, 1); 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  margin: 10px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+  background: #fff;
+
+}
+
+.cuerpo-tarjeta:hover{
+
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.descripcion{
+
+  padding: 12px;
+  margin-bottom: 10px;
+
+}
+
+.cuerpo-tarjeta .descripcion h2{
+
+  font-weight: 400;
+  margin-bottom: 15px;
+
+}
