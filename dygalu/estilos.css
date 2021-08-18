@@ -15,7 +15,7 @@ header {
 
 	width:100%;
 	overflow: hidden;
-	background-image: linear-gradient(to right, #9106DB, #BB24B5, #CA0072, #DF2B2B);
+	background: #000;
 	margin-bottom:20px;
 
 }
@@ -31,12 +31,13 @@ header {
 
 header .logo {
 
-	color:#f2f2f2;
+	color:#fff;
 	font-size:50px;
 	font-family:"Nexa";
 	line-height:200px;
 	float:left;
 	transition: .4s;
+	cursor: none;
 
 }
 
@@ -48,7 +49,7 @@ header nav {
 
 }
 
-header nav a {
+header ul a {
 
 	display:inline-block;
 	color:#fff;
@@ -68,7 +69,7 @@ header nav a {
 
 header nav a:hover {
 
-	background:#00B6ED;
+	background:#000;
 	border-radius:50px;
 
 }
@@ -105,7 +106,7 @@ header nav a:hover {
 	padding:20px;
 	color:#fff;
 	text-align:center;
-	background-image: linear-gradient(to right, #004785, #004785, #08C5FD);
+	background: #000;
 	margin-bottom:1em;
 
 }

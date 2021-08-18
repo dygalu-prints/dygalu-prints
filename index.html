@@ -18,6 +18,22 @@
 
 	<link rel="stylesheet" href="dygalu/diseños.css">
 
+  <link rel="stylesheet" href="dygalu/cookie.css">
+
+  <link rel="stylesheet" href="dygalu/cargando.css">
+
+  <link rel="stylesheet" href="dygalu/modal.css">
+
+  <link rel="stylesheet" href="dygalu/header.css">
+
+  <script src="https://kit.fontawesome.com/cd33816f91.js" crossorigin="anonymous"></script>
+
+  <script src="dygalu/script/jquery-3.5.1.min.js"></script>
+
+  <script src="dygalu/script/main.js"></script>
+
+  <script src="dygalu/script.js"></script>
+
 	<script src="dygalu/jquery-latest.js.descarga"></script>
 
 	<script src="dygalu/header.js.descarga"></script>
@@ -30,20 +46,26 @@
 
 </head>
 <body>
-	<header class="header">
-		<div class="wrapper">
-			<div class="logo">DYGALU PRINTS</div>
-			<nav>
-				<span class="ir-arriba icon-arrow-up2"><a href="#">inicio</a></span>
-				<a href="#">Lista</a>
-				<a href="#">Unirte</a>
-				<a href="#">Salir</a>
-			</nav>
-		</div>
-	</header>
-	<section class="contenido wrapper">
-		<h3>Diseños</h3>
-  </section>
+	<header>
+        <div class="logo">DYGALU</div>
+        <ul>
+            <li class="menu-item"><a href="#">Home</a></li>
+            <li class="menu-item"><a href="#">Lista</a></li>
+            <li class="menu-item"><a href="#">Unirte</a></li>
+            <li class="menu-item"><a href="#">Salir</a></li>
+        </ul>
+        <div class="hamburguer" id="Hamburguer">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="menu-mobile" id="Menu">
+            <span class="menu-item">Home</span>
+            <span class="menu-item">Services</span>
+            <span class="menu-item">About</span>
+            <span class="menu-item">Contact</span>
+        </div>
+    </header>
 
   &nbsp;&nbsp;
 
@@ -518,5 +540,36 @@
         <i class="fa fa-whatsapp my-float"></i>
         </a>
       </section>
+
+      
+
+    <div class="pop-up">
+        <div class="pop-up-wrap">
+            <div class="pop-up-title">
+                <h2>DYGALU_PRINTS</h2>
+                <p>Los mejores estampados al mejor precio</p>
+            </div>
+            <div class="subcription">
+                <div class="line"></div>
+                <i class="far fa-times-circle" id="close"></i>
+                <div class="sub-content">
+                    <h2>SUSCRIBETE</h2>
+                    <p>¡Susribete para que te lleguen las notificaciones cada que subamos un diseño nuevo!</p>
+                    <form>
+                        <input type="email" class="subs-email" placeholder="Esccribe tu correo electronico">
+                        <button class="subs-send" type="submit">Enviar Suscripcion</button>
+                        <a href="#"><img class="redes" src="dygalu/imagenes/icons8-play-button.svg" alt=""></a>
+                        <a href="#"><img class="redes" src="dygalu/imagenes/icons8-facebook.svg" alt=""></a>
+                        <a href="#"><img class="redes" src="dygalu/imagenes/icons8-instagram.svg" alt=""></a>
+                        <p>(Si envias tu correo estara protegidos y no seran compartido con ninguna persona)</p>
+                    </form>
+                </div>
+                
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <script src="cookies.js"></script>
+    <script src="dygalu/code.js"></script>
 
 </body></html>
